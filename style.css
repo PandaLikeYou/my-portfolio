@@ -1,0 +1,21 @@
+
+body{
+    background: linear-gradient(skyblue, lightgreen);
+    background-image: url("klee.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    font-size:larger;
+}
+
+.container{
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+
+}
+
+h1,h2,h3{
+    font-family:inherit;
+    font-size: larger;
+}
