@@ -1,21 +1,71 @@
 
 body{
-    background: linear-gradient(skyblue, lightgreen);
-    background-image: url("klee.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: inline-block;
-    font-size:larger;
+      background-image: url(klee.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 20px;
 }
 
-.container{
-    padding: 10px;
-    border-radius: 10px;
-    display: inline-block;
-
+.main, footer {
+    text-align: center;
 }
 
-h1,h2,h3{
-    font-family:inherit;
-    font-size: larger;
+.main {
+    background-color: white;
+    margin: 0 auto 0 auto;
+    width: 70%;
+    border-radius: 60px;
+    padding: 0px;
+    font-family: Helvetica;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.profile {
+    border-style: solid;
+    border-color: lightblue;
+    margin-top: -50px;
+}
+
+.profile, .icons img {
+    border-radius: 50%;
+}
+
+.name_box {
+    background-color: lightblue;
+    padding-bottom: 150px;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+}
+
+.profile, .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#ar_rank {
+    margin-bottom: 20px;
+}
+
+footer {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: -21px;
+    background-color: lightblue;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+.awards img {
+    border-style: solid;
+    border-color: yellow;
 }
