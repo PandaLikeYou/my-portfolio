@@ -693,7 +693,7 @@ p {
 /*-- //about --*/ 
 /*-- social-wthree-icons --*/
 .social-wthree-icons ul {
-    margin-top: 1.5em;
+    margin-top: 2.5em;
 }
 .social-wthree-icons ul li {
     display: inline-block;
@@ -705,6 +705,7 @@ p {
     font-size: 1em;
     color: #fff;
     line-height: 2.6em;
+	pointer-events: auto;
 }
 .icon-border {
 	position: relative;
@@ -1488,3 +1489,14 @@ ul.address li {
 }
 }
 /*-- //responsive-design --*/
+
+.don-container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.don-parent {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
